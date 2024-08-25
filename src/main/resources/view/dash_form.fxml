@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashFormController">
+   <children>
+
+      <Label alignment="CENTER" layoutX="-7.0" prefHeight="107.0" prefWidth="606.0" style="-fx-background-color: #1B1464;" text="THOGA KADE" textFill="#f3f5fc">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="195.0" layoutY="126.0" onAction="#btnAddCustomerOnAction" prefHeight="43.0" prefWidth="181.0" style="-fx-background-color: #2ecc71;" text="Add Customer" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="195.0" layoutY="268.0" onAction="#btnViewCustomerOnAction" prefHeight="43.0" prefWidth="181.0" style="-fx-background-color: #e74c3c;" text="View Customer" textFill="#e1d7d7">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="195.0" layoutY="188.0" onAction="#btnDeleteCustomerOnAction" prefHeight="49.0" prefWidth="181.0" style="-fx-background-color: #34495e;" text="Delete Customer">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="195.0" layoutY="337.0" onAction="#btnUpdateCustomerOnAction" prefHeight="49.0" prefWidth="181.0" style="-fx-background-color: #f1c40f;" text="Update Customer" />
+   </children>
+</AnchorPane>

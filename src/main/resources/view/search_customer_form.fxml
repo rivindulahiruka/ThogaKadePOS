@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="457.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchCustomerFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="8.0" layoutY="8.0" prefHeight="91.0" prefWidth="589.0" style="-fx-background-color: #EA2027;" text="SEARCH CUSTOMER" textFill="#e8dfdf">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtxSearchId" layoutX="36.0" layoutY="118.0" prefHeight="25.0" prefWidth="205.0" promptText="Enter Customer Id" />
+      <JFXButton layoutX="255.0" layoutY="115.0" onAction="#btnSearchOnAction" prefHeight="31.0" prefWidth="82.0" style="-fx-background-color: #009432;" text="Search">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtName" layoutX="36.0" layoutY="179.0" prefHeight="25.0" prefWidth="205.0" promptText="NAME" />
+      <JFXTextField fx:id="txtAddress" layoutX="35.0" layoutY="232.0" prefHeight="26.0" prefWidth="207.0" promptText="ADDRESS" />
+      <JFXTextField fx:id="txtNumber" layoutX="35.0" layoutY="286.0" prefHeight="26.0" prefWidth="207.0" promptText="NUMBER" />
+      <DatePicker fx:id="dateDOB" layoutX="31.0" layoutY="338.0" prefHeight="25.0" prefWidth="216.0" promptText="DATE OF BIRTH" />
+      <JFXTextField fx:id="txtNotFound" layoutX="60.0" layoutY="385.0" prefHeight="45.0" prefWidth="501.0" unFocusColor="#e1e1eb">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>
